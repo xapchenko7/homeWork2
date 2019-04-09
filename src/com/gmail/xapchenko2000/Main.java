@@ -14,6 +14,7 @@ public class Main {
         enterData();
         printOne();
         printTwo();
+        printThree();
     }
 
 
@@ -47,6 +48,14 @@ public class Main {
 
     public static void printTwo() {
         System.out.println("Человек по имени " + name + " " + "живет в городе " + city + " ");
-        System.out.println("Этому человеку " + age + " " + " лет и любит он заниматься " + hobby + "ом");
+        System.out.println("Этому человеку " + age + " " + "лет и любит он заниматься " + hobby + "ом");
+    }
+
+    public static void printThree() {
+        System.out.println(name + " - " + "имя");
+        System.out.println(city + " - " + "город");
+        System.out.println(age + " - " + "возраст");
+        System.out.println(hobby + " - " + "хобби");
+
     }
 }
