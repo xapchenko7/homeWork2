@@ -13,6 +13,7 @@ public class Main {
 
         enterData();
         printOne();
+        printTwo();
     }
 
 
@@ -42,5 +43,10 @@ public class Main {
         System.out.println("Город " + "  " + "\t" + city);
         System.out.println("Хобби " + "  " + "\t" + hobby);
 
+    }
+
+    public static void printTwo() {
+        System.out.println("Человек по имени " + name + " " + "живет в городе " + city + " ");
+        System.out.println("Этому человеку " + age + " " + " лет и любит он заниматься " + hobby + "ом");
     }
 }
